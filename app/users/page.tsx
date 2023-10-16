@@ -9,7 +9,7 @@ const UsersPage = async ({ searchParams: { sortOrder } }: Props) => {
   return (
     <>
       <h1>USERS</h1>
-      <UserTable sortOrder={sortOrder} />
+        <UserTable sortOrder={sortOrder} />
     </>
   );
 };
